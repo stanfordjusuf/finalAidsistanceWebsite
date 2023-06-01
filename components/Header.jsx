@@ -13,17 +13,10 @@ const Header = () => {
   }, []);
 
   return (
-    <div
-      className="navbar sticky top-0 z-50 shadow"
-      style={{ background: "#FFFFFF" }}
-    >
+    <div className="navbar" style={{ backgroundColor: "#faf9f6" }}>
       <div className="navbar-start">
         <div className="dropdown">
-          <button
-            tabIndex={0}
-            type="button"
-            className="btn btn-ghost lg:hidden"
-          >
+          <label tabIndex={0} className="btn btn-ghost btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -35,127 +28,64 @@ const Header = () => {
                 strokeLinecap="round"
                 strokeLinejoin="round"
                 strokeWidth="2"
-                d="M4 6h16M4 12h8m-8 6h16"
+                d="M4 6h16M4 12h16M4 18h7"
               />
             </svg>
-          </button>
-          <button
-            type="button"
+          </label>
+          <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52"
-            style={{ background: "#f9f2ed" }}
+            className="menu menu-compact dropdown-content mt-3 p-2 rounded-box w-52"
+            style={{ backgroundColor: "#faf9f6", color: "black" }}
           >
-            <ul>
-              <li className="text-black">
-                <Link href="/">
-                  <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                    Home
-                  </a>
-                </Link>
-                <Link href="/about">
-                  <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                    About
-                  </a>
-                </Link>
-                <Link href="/category/news">
-                  <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                    News
-                  </a>
-                </Link>
-                <Link href="/category/promotions">
-                  <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                    Promotion
-                  </a>
-                </Link>
-                <Link href="/faq">
-                  <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                    FAQ
-                  </a>
-                </Link>
-                <Link href="/contact">
-                  <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                    Contact
-                  </a>
-                </Link>
-              </li>
-            </ul>
-          </button>
-        </div>
-        <Link href="/">
-          {/* <span className="logo cursor-pointer font-bold text-4xl text-orange">Prodat ⭐️</span> */}
-          <img
-            className="hover:cursor-pointer"
-            width="200px"
-            height="auto"
-            src="https://i.ibb.co/3Rvrrkn/Screenshot-2023-03-11-at-13-14-22-removebg-preview-1.png"
-            alt="logo-1"
-            border="0"
-          />
-        </Link>
-      </div>
-      <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          {/* <li className="text-black">
-            {categories.map((category, index) => (
-              <Link key={index} href={`/category/${category.slug}`}>
-                <span className="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                  {category.name}
-                </span>
-              </Link>
-            ))}
-          </li> */}
-          <li className="text-black">
             <Link href="/">
-              <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                Home
-              </a>
+              <li>
+                <a>Home</a>
+              </li>
             </Link>
-            <Link href="/about">
-              <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                About
-              </a>
+            <li>
+              <a>Our Team</a>
+            </li>
+            <li>
+              <a>Future Plans</a>
+            </li>
+            <Link href="/ourprojects">
+              <li>
+                <a>Our Projects</a>
+              </li>
             </Link>
-            <Link href="/rooms">
-              <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                Rooms
-              </a>
-            </Link>
-            <Link href="/services">
-              <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                Services
-              </a>
-            </Link>
-            <Link href="/category/news">
-              <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                News
-              </a>
-            </Link>
-            <Link href="/category/promotions">
-              <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                Promotion
-              </a>
-            </Link>
-            <Link href="/faq">
-              <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                FAQ
-              </a>
-            </Link>
-            <Link href="/contact">
-              <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">
-                Contact
-              </a>
-            </Link>
-          </li>
-        </ul>
+          </ul>
+        </div>
+      </div>
+      <div className="navbar-center">
+        <center>
+          <img
+            src="https://i.ibb.co/8r3L1mC/Logo-2.png"
+            alt=""
+            style={{ width: "30%", height: "auto" }}
+          />
+        </center>
       </div>
       <div className="navbar-end">
-        <a
-          href="https://linktr.ee/maxleysuites"
-          className="btn glass text-black"
-          style={{ background: "#f86c04" }}
-        >
-          Book Now
-        </a>
+        <button className="btn btn-ghost btn-circle">
+          <a href="https://www.instagram.com/maxleysuites/">
+            <img
+              src="https://i.ibb.co/d2vBPhL/1.png"
+              alt=""
+              style={{ width: "20px", height: "auto" }}
+            />
+          </a>
+        </button>
+        <button className="btn btn-ghost btn-circle">
+          <div className="indicator">
+            <a href="mailto:maxleysuites@gmail.com">
+              <img
+                src="https://i.ibb.co/ChdTZp1/5.png"
+                alt=""
+                style={{ width: "20px", height: "auto" }}
+              />
+            </a>
+          </div>
+        </button>
       </div>
     </div>
   );

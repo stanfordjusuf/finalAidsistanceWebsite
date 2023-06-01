@@ -3,14 +3,20 @@ import React from "react";
 export default function contact() {
   return (
     <>
-      <div>
-        <div className="section about-section flex flex-wrap">
-          <div className="basis-1/3 bg-gray-800 flex-1 contact-panel"></div>
-          <div id="contact" className="basis-2/3 flex-1 p-3">
-            <h1 className="text-6xl font-bold underline decoration-[#f86c04]">
-              Contact Us
+      <div
+        className="hero min-h-screen"
+        style={{ color: "white", backgroundColor: "#f86c04" }}
+      >
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <img
+            src="https://i.ibb.co/tH6zr8h/Screenshot-2023-03-19-at-14-51-17.png"
+            className="max-w-sm rounded-lg shadow-2xl"
+          />
+          <div>
+            <h1 className="text-5xl font-bold" style={{ color: "white" }}>
+              Contact Us!
             </h1>
-            <br></br>
+            <br />
             <p className="text-xl">
               Email:{" "}
               <a
@@ -50,23 +56,16 @@ export default function contact() {
             <p className="text-xl font-bold">
               Operational Hours: 09.00 - 17.00 WIB
             </p>
-            <br></br>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3965.7040026826317!2d106.6365915!3d-6.302568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb52573b01af%3A0x2c7f226871efd55c!2sMaxley%20Suites!5e0!3m2!1sen!2sid!4v1678791900340!5m2!1sen!2sid"
-              width="600"
-              height="450"
-              style={{ border: 0 }}
-              loading="lazy"
-            ></iframe>
-            <br></br>
+            <br />
+            <a href="https://goo.gl/maps/SAxM51p66Yasbj2L9">
+              <img
+                src="https://i.ibb.co/QXrSr8t/Screenshot-2023-03-19-at-14-40-46.png"
+                className="max-w-sm rounded-lg shadow-2xl"
+              />
+            </a>
           </div>
         </div>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
     </>
   );
 }

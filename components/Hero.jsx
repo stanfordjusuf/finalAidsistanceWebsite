@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { Anchor } from "react-bootstrap";
 
 function Hero() {
   return (
@@ -14,34 +13,43 @@ function Hero() {
               </a>
 
               <div className="flex flex-col absolute items-center w-full h-full justify-center -z-50">
-                <h1
-                  className="text-4xl text-center md:text-6xl font-bold"
-                  style={{ color: "white" }}
+                <div
+                  className="hero min-h-screen"
+                  style={{
+                    backgroundImage: `url("https://i.ibb.co/bsQcQsg/IMG-4848.png")`,
+                  }}
                 >
-                  #livingwithmaxley
-                </h1>
-                <h1 className="text-3xl text-center" style={{ color: "white" }}>
-                  Hotel & Lodging
-                </h1>
-                <div className="flex flex-row mt-4 flex-wrap">
-                  <Link href="/about">
-                    <button
-                      className="btn btn-outline"
-                      style={{ color: "black" }}
-                    >
-                      About Us
-                    </button>
-                  </Link>
-                  <Anchor>
-                    <Link href="#contact">
-                      <button
-                        className="btn btn-ghost"
-                        style={{ color: "black" }}
-                      >
-                        Contact Us
-                      </button>
-                    </Link>
-                  </Anchor>
+                  <div className="hero-overlay bg-opacity-60"></div>
+                  <div className="hero-content text-center text-neutral-content">
+                    <div className="max-w-md">
+                      <h1 className="mb-5 text-5xl font-bold">
+                        #livingwithmaxley
+                      </h1>
+                      <p className="mb-5 text-xl" style={{ color: "white" }}>
+                        Hotel & Lodging
+                      </p>
+                      <div className="flex flex-row mt-4 flex-wrap justify-center">
+                        <Link href="/about">
+                          <button
+                            type="button"
+                            className="btn btn-outline"
+                            style={{ color: "white" }}
+                          >
+                            About Us
+                          </button>
+                        </Link>
+                        <Link href="/contact">
+                          <button
+                            type="button"
+                            className="btn btn-ghost"
+                            style={{ color: "white" }}
+                          >
+                            Contact Us
+                          </button>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -50,85 +58,78 @@ function Hero() {
               </a>
             </div>
           </div>
-          <div id="promotion1" className="carousel-item relative w-full">
-            <h1
-              className="text-4xl text-center font-bold w-3/4 md:text-6xl"
-              style={{ color: "white" }}
-            >
+          <div
+            id="promotion1"
+            className="carousel-item relative w-full flex flex-col"
+          >
+            <h1 className="text-4xl text-center font-bold md:text-6xl z-50 pt-10">
               <br></br>
+              Group Package Promo!
               <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              Group Package Promo!!! Invite your friends to live at Maxley!
+              Invite your friends to living at Maxley!
             </h1>
-            <iframe
-              src="https://streamable.com/e/5ttmo8"
-              style={{
-                borderRadius: "5%",
-                paddingTop: "10px",
-                paddingBottom: "10px",
-                paddingRight: "10px",
-                paddingLeft: "10px",
-              }}
-              width="100%"
-              height="100%"
-              allowfullscreen
-              autoPlay
-              muted
-              loop
-            ></iframe>
+            <video controls className="w-full absolute w-full h-full">
+              <source src="https://drive.google.com/uc?id=1iK8BnwXpUoFaU3HxasKab6YFRZpo0PP9&export=download" />
+            </video>
+
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#home" className="btn btn-circle btn-ghost">
+                ❮
+              </a>
+
+              <a href="#promotion2" className="btn btn-circle btn-ghost">
+                ❯
+              </a>
+            </div>
           </div>
-          <div id="promotion2" className="carousel-item relative w-full">
-            <h1
-              className="text-4xl text-center font-bold w-3/4 md:text-6xl"
-              style={{ color: "white" }}
-            >
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
+          <div
+            id="promotion2"
+            className="carousel-item relative w-full flex flex-col align-center"
+          >
+            <h1 className="text-4xl text-center font-bold w-full md:text-6xl z-50">
               Get FREE Merchandise SUGA BTS & Doorprize Lightstick BTS for
               ARMY!!!
             </h1>
-            <iframe
-              src="https://streamable.com/e/20kb55"
-              style={{
-                borderRadius: "5%",
-                paddingTop: "10px",
-                paddingBottom: "10px",
-                paddingRight: "10px",
-                paddingLeft: "10px",
-              }}
-              width="100%"
-              height="100%"
-              allowfullscreen
-              autoPlay
-              muted
-              loop
-            ></iframe>
+            <video controls className="w-full absolute w-full h-full">
+              <source src="https://drive.google.com/uc?id=1cKceFVj0_DCYB2t6HYv8mMc8lO7T4hhm&export=download" />
+            </video>
+            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <a href="#promotion1" className="btn btn-circle btn-ghost">
+                ❮
+              </a>
+              <div className="flex flex-col absolute w-full h-full -z-50 justify-center items-center "></div>
+
+              <a href="#home" className="btn btn-circle btn-ghost">
+                ❯
+              </a>
+            </div>
           </div>
         </div>
         <div>
           <div className="section about-section grid md:grid-cols-1 md:h-screen lg:grid-cols-2 w-full">
             <div className='relative text-center justify-center items-center flex flex-col flex-1 bg-cover bg-[url("https://i.ibb.co/yYZ6rj5/Gym.jpg")] '>
-              <div className="min-w-full h-full bg-[#f86c04] opacity-30 absolute"></div>
+              <div className="min-w-full h-full bg-[#f86c04] opacity-30 absolute" />
               <Link href="/services">
-                <a className="text-6xl text-white z-[3] underline decoration-[#f86c04] cursor-pointer">
+                <a
+                  href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer"
+                  className="text-6xl text-white z-[3] underline decoration-[#f86c04] cursor-pointer"
+                >
                   Services
                 </a>
               </Link>
-              <br></br>
+              <br />
             </div>
             <div className='relative text-center flex-1 flex flex-col justify-center items-center p-6  bg-cover bg-[url("https://i.ibb.co/xmpsYpR/Billiard.jpg")]'>
-              <div className="min-w-full h-full bg-[#f86c04] opacity-30 absolute"></div>
+              <div className="min-w-full h-full bg-[#f86c04] opacity-30 absolute" />
               <Link href="/about">
-                <a className="text-6xl text-white z-[3] underline decoration-[#f86c04] cursor-pointer">
+                <a
+                  className="text-6xl text-white z-[3] underline decoration-[#f86c04] cursor-pointer"
+                  href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer"
+                >
                   About
                 </a>
               </Link>
-              <br></br>
+              <br />
             </div>
           </div>
         </div>
@@ -137,22 +138,32 @@ function Hero() {
             <h1 className="text-4xl font-bold text-white">
               You can find the latest information or events about Maxley here!
             </h1>
-            <br></br>
+            <br />
             <Link href="/category/news">
-              <button className="btn bg-transparent border-white w-32 text-white hover:text-white hover:bg-[#f86c0477]">
+              <button
+                type="button"
+                className="btn bg-transparent border-white w-32 text-white hover:text-white hover:bg-[#f86c0477]"
+                href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer"
+              >
                 Go to News
               </button>
             </Link>
           </div>
         </div>
-        <div>
-          <div className="section about-section flex flex-wrap">
-            <div className="basis-1/3 bg-gray-800 flex-1 contact-panel"></div>
-            <div id="contact" className="basis-2/3 flex-1 p-3">
-              <h1 className="text-6xl font-bold underline decoration-[#f86c04]">
-                Contact Us
+        <div
+          className="hero min-h-screen"
+          style={{ color: "white", backgroundColor: "#f86c04" }}
+        >
+          <div className="hero-content flex-col lg:flex-row-reverse">
+            <img
+              src="https://i.ibb.co/tH6zr8h/Screenshot-2023-03-19-at-14-51-17.png"
+              className="max-w-sm rounded-lg shadow-2xl"
+            />
+            <div>
+              <h1 className="text-5xl font-bold" style={{ color: "white" }}>
+                Contact Us!
               </h1>
-              <br></br>
+              <br />
               <p className="text-xl">
                 Email:{" "}
                 <a
@@ -192,26 +203,18 @@ function Hero() {
               <p className="text-xl font-bold">
                 Operational Hours: 09.00 - 17.00 WIB
               </p>
-              <br></br>
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3965.7040026826317!2d106.6365915!3d-6.302568!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb52573b01af%3A0x2c7f226871efd55c!2sMaxley%20Suites!5e0!3m2!1sen!2sid!4v1678791900340!5m2!1sen!2sid"
-                width="600"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen=""
-                loading="lazy"
-              ></iframe>
-              <br></br>
+              <br />
+              <a href="https://goo.gl/maps/SAxM51p66Yasbj2L9">
+                <img
+                  src="https://i.ibb.co/QXrSr8t/Screenshot-2023-03-19-at-14-40-46.png"
+                  className="max-w-sm rounded-lg shadow-2xl"
+                />
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <br />
     </>
   );
 }

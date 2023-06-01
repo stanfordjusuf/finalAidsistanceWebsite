@@ -11,7 +11,7 @@ export default function faq() {
           <Disclosure>
             {({ open }) => (
               <>
-                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg hover:bg-orange-200 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-75">
+                <Disclosure.Button className="flex justify-between w-full px-4 py-2 text-sm font-medium text-left text-purple-900 bg-orange-100 rounded-lg">
                   <span>Apakah Maxley menerima sewa harian?</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
