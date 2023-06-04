@@ -1,13 +1,12 @@
 import React from 'react';
 
-
 function Hero() {
   return (
     <>
       <div
         className="hero min-h-screen"
         style={{
-          backgroundImage: `url('https://i.ibb.co/sQLnLJD/museum.jpg')`,
+          backgroundImage: 'url("https://i.ibb.co/sQLnLJD/museum.jpg")',
         }}
       >
         <div className="hero-overlay bg-red-400 bg-opacity-60" />
@@ -87,10 +86,10 @@ function Hero() {
       <div
         className="hero min-h-50"
         style={{
-          backgroundImage: `url('https://i.ibb.co/5cnB2Vp/lima-hal-menarik-dari-jakarta-9-Kpuwo-Hz5t.jpg')`,
+          backgroundImage: 'url("https://i.ibb.co/5cnB2Vp/lima-hal-menarik-dari-jakarta-9-Kpuwo-Hz5t.jpg")',
         }}
       >
-        <div className="hero-overlay bg-red-400 bg-opacity-60"></div>
+        <div className="hero-overlay bg-red-400 bg-opacity-60" />
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
             <h1 className="mb-5 text-6xl font-bold text-white">Events</h1>
@@ -126,7 +125,7 @@ function Hero() {
       <div
         className="hero min-h-50"
         style={{
-          backgroundImage: `url('https://i.ibb.co/xD29s7L/jakarta-indonesia-dezeen-hero.webp')`,
+          backgroundImage: 'url("https://i.ibb.co/xD29s7L/jakarta-indonesia-dezeen-hero.webp")',
         }}
       >
         <div className="hero-overlay bg-red-400 bg-opacity-60" />
@@ -165,7 +164,7 @@ function Hero() {
       <div
         className="hero min-h-50"
         style={{
-          backgroundImage: `url('https://i.ibb.co/R4CChqf/dki-jakarta.jpg')`,
+          backgroundImage: 'url("https://i.ibb.co/R4CChqf/dki-jakarta.jpg")',
         }}
       >
         <div className="hero-overlay bg-red-400 bg-opacity-60" />
