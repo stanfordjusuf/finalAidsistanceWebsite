@@ -1,17 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
-import Link from "next/link";
-import { getCategories } from "../services";
+import Link from 'next/link';
 
 const Header = () => {
-  const [categories, setCategories] = useState([]);
-
-  useEffect(() => {
-    getCategories().then((newCategories) => {
-      setCategories(newCategories);
-    });
-  }, []);
-
   return (
     <div className="navbar" style={{ backgroundColor: "#faf9f6" }}>
       <div className="navbar-start">
