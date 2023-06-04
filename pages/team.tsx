@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function team() {
   return (
@@ -18,7 +18,7 @@ export default function team() {
               <h2 className="text-2xl text-center">Ryan Mondong</h2>
               <p className="text-center">
                 My name is Ryan and I am a web developer for AIDsistance. I love
-                soccer and it is my main sport.{" "}
+                soccer and it is my main sport.
               </p>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function team() {
           </div>
         </div>
       </div>
-      <br></br>
+      <br />
       <div className="p-5 grid grid-cols-1 lg:grid-cols-3 justify-items-center lg:space-y-0 space-y-4">
         <div>
           <div className="w-96 h-full bg-red-400 shadow-xl rounded-xl">
@@ -88,7 +88,7 @@ export default function team() {
             <div className="card-body">
               <h2 className="text-2xl text-center text-white">Angelina Ang</h2>
               <p className="text-center">
-                Hello! My name is Angelina Ang but most people call me Ang! I'm
+                Hello! My name is Angelina Ang but most people call me Ang! I am
                 an event coordinator for AIDSistance. I go to IICS and a fun
                 fact about me is that I looove coffee ☕️
               </p>
@@ -107,7 +107,7 @@ export default function team() {
                 Divo Tanudjaja
               </h2>
               <p className="text-center">
-                Hi! I'm Divo Tanudjaja and I'm the treasurer for AIDSistance. I
+                Hi! I am Divo Tanudjaja and I am the treasurer for AIDSistance. I
                 go to ACS Jakarta and I like watching k-dramas!
               </p>
             </div>
