@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer
-    className="footer footer-center p-10 bg-primary text-base-content"
+    className="footer bg-primary text-base-content"
     style={{ backgroundColor: '#faf9f6' }}
   >
     <div>
