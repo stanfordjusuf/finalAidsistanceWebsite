@@ -42,12 +42,16 @@ const Header = () => {
                 <a>Home</a>
               </li>
             </Link>
-            <li>
-              <a>Our Team</a>
-            </li>
-            <li>
-              <a>Future Plans</a>
-            </li>
+            <Link href="/team">
+              <li>
+                <a>Our Team</a>
+              </li>
+            </Link>
+            <Link href="/futureplans">
+              <li>
+                <a>Future Plans</a>
+              </li>
+            </Link>
             <Link href="/ourprojects">
               <li>
                 <a>Our Projects</a>
