@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default function futureplans() {
   return (
@@ -18,7 +18,7 @@ export default function futureplans() {
           </div>
         </div>
       </div>
-      <br></br>
+      <br />
       <div>
         <h1 className="text-4xl text-center font-bold">Photo Gallery</h1>
         <br />
@@ -71,19 +71,19 @@ export default function futureplans() {
             <img
               className="w-96 h-96 object-cover"
               src="https://i.ibb.co/3fpjfBj/placeholder-img.jpg"
-            ></img>
+            />
           </div>
           <div>
             <img
               className="w-96 h-96 object-cover"
               src="https://i.ibb.co/3fpjfBj/placeholder-img.jpg"
-            ></img>
+            />
           </div>
           <div>
             <img
               className="w-96 h-96 object-cover"
               src="https://i.ibb.co/3fpjfBj/placeholder-img.jpg"
-            ></img>
+            />
           </div>
         </div>
         <div className="p-5 grid grid-cols-1 lg:grid-cols-3 justify-items-center lg:space-y-0 space-y-4">
@@ -91,19 +91,19 @@ export default function futureplans() {
             <img
               className="w-96 h-96 object-cover"
               src="https://i.ibb.co/3fpjfBj/placeholder-img.jpg"
-            ></img>
+            />
           </div>
           <div>
             <img
               className="w-96 h-96 object-cover"
               src="https://i.ibb.co/3fpjfBj/placeholder-img.jpg"
-            ></img>
+            />
           </div>
           <div>
             <img
               className="w-96 h-96 object-cover"
               src="https://i.ibb.co/3fpjfBj/placeholder-img.jpg"
-            ></img>
+            />
           </div>
         </div>
       </div>
