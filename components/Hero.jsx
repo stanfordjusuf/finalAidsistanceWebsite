@@ -2,9 +2,9 @@ import React from 'react';
 
 function Hero() {
   return (
-    <>
+    <div className="flex flex-col">
       <div
-        className="hero min-h-screen"
+        className="hero min-h-screen mb-8"
         style={{
           backgroundImage: 'url("https://i.ibb.co/sQLnLJD/museum.jpg")',
         }}
@@ -198,7 +198,7 @@ function Hero() {
           <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
