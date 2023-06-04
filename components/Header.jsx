@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Header = () => (
   <>
-    <div className="navbar" style={{ backgroundColor: '#faf9f6' }}>
+    <div className="navbar sticky top-0 z-50 shadow" style={{ backgroundColor: '#faf9f6' }}>
       <div className="navbar-start">
         <div className="dropdown">
           <button type="button" tabIndex={0} className="btn btn-ghost btn-circle">
