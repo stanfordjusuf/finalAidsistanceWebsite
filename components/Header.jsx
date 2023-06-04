@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 
 import Link from 'next/link';
 
-const Header = () => {
-  return (
+const Header = () => (
+  <>
     <div className="navbar" style={{ backgroundColor: "#faf9f6" }}>
       <div className="navbar-start">
         <div className="dropdown">
@@ -83,7 +83,7 @@ const Header = () => {
         </button>
       </div>
     </div>
-  );
-};
+  </>
+);
 
 export default Header;
