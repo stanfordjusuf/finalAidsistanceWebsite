@@ -61,29 +61,27 @@ const Header = () => (
           />
         </center>
       </div>
-      <div className="is-flex-touch">
-        <div className="navbar-end">
-          <button type="button" className="btn btn-ghost btn-circle">
-            <a href="https://www.instagram.com/maxleysuites/">
+      <div className="navbar-end">
+        <button type="button" className="btn btn-ghost btn-circle">
+          <a href="https://www.instagram.com/maxleysuites/">
+            <img
+              src="https://i.ibb.co/d2vBPhL/1.png"
+              alt="img"
+              style={{ width: '20px', height: 'auto' }}
+            />
+          </a>
+        </button>
+        <button type="button" className="btn btn-ghost btn-circle">
+          <div className="indicator">
+            <a href="mailto:maxleysuites@gmail.com">
               <img
-                src="https://i.ibb.co/d2vBPhL/1.png"
-                alt="img"
+                src="https://i.ibb.co/ChdTZp1/5.png"
+                alt=""
                 style={{ width: '20px', height: 'auto' }}
               />
             </a>
-          </button>
-          <button type="button" className="btn btn-ghost btn-circle">
-            <div className="indicator">
-              <a href="mailto:maxleysuites@gmail.com">
-                <img
-                  src="https://i.ibb.co/ChdTZp1/5.png"
-                  alt=""
-                  style={{ width: '20px', height: 'auto' }}
-                />
-              </a>
-            </div>
-          </button>
-        </div>
+          </div>
+        </button>
       </div>
     </div>
   </>
