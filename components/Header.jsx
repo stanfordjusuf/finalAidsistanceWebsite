@@ -57,7 +57,7 @@ const Header = () => (
           <img
             src="https://i.ibb.co/8r3L1mC/Logo-2.png"
             alt=""
-            style={{ width: '30%', height: 'auto' }}
+            style={{ width: '150px', height: 'auto' }}
           />
         </center>
       </div>
