@@ -61,7 +61,7 @@ const Header = () => (
           />
         </center>
       </div>
-      <div className="navbar-menu is-flex-touch">
+      <div className="is-flex-touch">
         <div className="navbar-end">
           <button type="button" className="btn btn-ghost btn-circle">
             <a href="https://www.instagram.com/maxleysuites/">
