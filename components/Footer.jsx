@@ -20,13 +20,13 @@ const Footer = () => (
       <div className="grid grid-flow-col gap-4">
         <center>
           <button type="button" className="btn btn-ghost btn-circle">
-//             <a href="https://www.instagram.com/aidsistance/">
+            <a href="https://www.instagram.com/aidsistance/">
               <img
                 src="https://i.ibb.co/d2vBPhL/1.png"
                 alt=""
                 style={{ width: '20px', height: 'auto' }}
               />
-//             </a>
+            </a>
           </button>
           <button type="button" className="btn btn-ghost btn-circle">
             <div className="indicator">
