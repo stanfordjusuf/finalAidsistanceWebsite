@@ -20,7 +20,7 @@ const Footer = () => (
       <div className="grid grid-flow-col gap-4">
         <center>
           <button type="button" className="btn btn-ghost btn-circle">
-            <a href="https://www.instagram.com/maxleysuites/">
+            <a href="https://www.instagram.com/aidsistance/?igshid=NTc4MTIwNjQ2YQ==">
               <img
                 src="https://i.ibb.co/d2vBPhL/1.png"
                 alt=""
