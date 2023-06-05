@@ -23,7 +23,7 @@ const Footer = () => (
             <a href="https://www.instagram.com/aidsistance/">
               <img
                 src="https://i.ibb.co/d2vBPhL/1.png"
-                alt=""
+                alt="ig"
                 style={{ width: '20px', height: 'auto' }}
               />
             </a>
@@ -33,7 +33,7 @@ const Footer = () => (
               <a href="mailto:maxleysuites@gmail.com">
                 <img
                   src="https://i.ibb.co/ChdTZp1/5.png"
-                  alt=""
+                  alt="email"
                   style={{ width: '20px', height: 'auto' }}
                 />
               </a>
