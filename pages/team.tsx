@@ -27,15 +27,14 @@ export default function team() {
           <div className="w-96 h-full bg-white shadow-xl rounded-xl">
             <img
               className="w-full rounded-t-xl"
-              src="https://i.ibb.co/197ZBZf/Nadya-Setiawan.png"
+              src="https://i.ibb.co/kSqVBJ6/Whats-App-Image-2023-06-05-at-19-00-01.jpg"
               alt="Nadya Setiawan"
             />
             <div className="card-body">
-              <h2 className="text-2xl text-center">Nadya Setiawan</h2>
+              <h2 className="text-2xl text-center">Kelly Faith</h2>
               <p className="text-center">
-                My name is Nadya Setiawan, I’m a content creator for
-                Aidsistance. I an a freshman in Northeastern university and I
-                love cafe hopping!
+                My name is Kelly Faith and im a content creator and event coordinator for Aidsistance. 
+                I go to ACS jakarta and i love all things matcha
               </p>
             </div>
           </div>
