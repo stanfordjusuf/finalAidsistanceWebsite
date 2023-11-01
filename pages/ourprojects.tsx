@@ -16,43 +16,7 @@ export default function ourprojects() {
           <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
             <div className="carousel-item">
               <img
-                src="https://i.ibb.co/8r3L1mC/Logo-2.png"
-                className="rounded-box"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://i.ibb.co/8r3L1mC/Logo-2.png"
-                className="rounded-box"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://i.ibb.co/8r3L1mC/Logo-2.png"
-                className="rounded-box"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://i.ibb.co/8r3L1mC/Logo-2.png"
-                className="rounded-box"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://i.ibb.co/8r3L1mC/Logo-2.png"
-                className="rounded-box"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://i.ibb.co/8r3L1mC/Logo-2.png"
-                className="rounded-box"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                src="https://i.ibb.co/8r3L1mC/Logo-2.png"
+                src="https://i.ibb.co/DkkcPFk/Screenshot-2023-11-01-at-11-55-47.png"
                 className="rounded-box"
               />
             </div>
