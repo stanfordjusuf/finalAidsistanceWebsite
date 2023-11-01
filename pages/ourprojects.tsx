@@ -20,6 +20,18 @@ export default function ourprojects() {
                 className="rounded-box"
               />
             </div>
+            <div className="carousel-item">
+              <img
+                src="https://i.ibb.co/mqkgPD7/Stanford-jusuf-346-x-370-px.png"
+                className="rounded-box"
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://i.ibb.co/mqkgPD7/Stanford-jusuf-346-x-370-px.png"
+                className="rounded-box"
+              />
+            </div>
           </div>
           <div>
             <h1 className="text-5xl font-bold">
