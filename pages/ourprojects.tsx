@@ -16,7 +16,7 @@ export default function ourprojects() {
           <div className="carousel carousel-center max-w-md p-4 space-x-4 bg-neutral rounded-box">
             <div className="carousel-item">
               <img
-                src="https://i.ibb.co/2cPQYmm/Screenshot-2023-11-01-at-11-58-41.png"
+                src="https://i.ibb.co/mqkgPD7/Stanford-jusuf-346-x-370-px.png"
                 className="rounded-box"
               />
             </div>
