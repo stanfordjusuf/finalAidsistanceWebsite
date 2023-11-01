@@ -67,7 +67,7 @@ export default function ourprojects() {
               fun graphics in teaching beginner to intermediate Python
               programming skill!
               <br />
-              This book will be completely free to the children supported by 
+              This book will be completely free to the children supported by
               Aidsistance!
               <br />
               This book will be available in Amazon to public in 2024! So stay tune!
