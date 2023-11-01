@@ -61,7 +61,7 @@ function Hero() {
       <br />
       <div className="carousel carousel-center rounded-box">
         <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
+          <img src="https://i.ibb.co/yP3RFz7/Screenshot-2023-11-01-at-10-54-12.png" alt="Pizza" />
         </div>
         <div className="carousel-item">
           <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
