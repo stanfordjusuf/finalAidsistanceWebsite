@@ -88,25 +88,13 @@ function Hero() {
       <br />
       <div className="carousel carousel-center rounded-box">
         <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
+          <img src="https://i.ibb.co/r7c1DgZ/Screenshot-2023-11-01-at-10-52-33.png" alt="Pizza" />
         </div>
         <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
+          <img src="https://i.ibb.co/16C0h5J/Screenshot-2023-11-01-at-10-49-32.png" alt="Pizza" />
         </div>
         <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
+          <img src="https://i.ibb.co/tYyXzbV/Screenshot-2023-11-01-at-10-51-57.png" alt="Pizza" />
         </div>
       </div>
       <br />
@@ -127,63 +115,10 @@ function Hero() {
       <br />
       <div className="carousel carousel-center rounded-box">
         <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
+          <img src="https://i.ibb.co/dKfCK4b/Screenshot-2023-11-01-at-11-30-57.png" alt="Pizza" />
         </div>
         <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-      </div>
-      <br />
-      <div
-        className="hero min-h-50"
-        style={{
-          backgroundImage: 'url("https://i.ibb.co/R4CChqf/dki-jakarta.jpg")',
-        }}
-      >
-        <div className="hero-overlay bg-red-400 bg-opacity-60" />
-        <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-6xl font-bold text-white">Encouraging</h1>
-            <p className="mb-5 text-white">Messages</p>
-          </div>
-        </div>
-      </div>
-      <div className="carousel carousel-center rounded-box">
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
-        </div>
-        <div className="carousel-item">
-          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
+          <img src="https://i.ibb.co/QnFt83g/Screenshot-2023-11-01-at-11-32-10.png" alt="Pizza" />
         </div>
       </div>
     </div>
