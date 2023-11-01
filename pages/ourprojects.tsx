@@ -64,7 +64,7 @@ export default function ourprojects() {
             <p className="py-6">
               Our web development team have finally finished writing their
               Python training book that combines fantasy storytelling and
-              fun graphics in teaching beginner to intermediate Python 
+              fun graphics in teaching beginner to intermediate Python
               programming skill!
               <br />
               This book will be completely free to the children supported by 
