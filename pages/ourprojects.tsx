@@ -59,17 +59,18 @@ export default function ourprojects() {
           </div>
           <div>
             <h1 className="text-5xl font-bold">
-              Day 1 - University Prep and Career Talks
+              The Land of Python Book Launch in 2024!
             </h1>
             <p className="py-6">
-              Seminar 1 (morning): University Prep → what to expect, application
-              tips
+              Our web development team have finally finished writing their
+              Python training book that combines fantasy storytelling and
+              fun graphics in teaching beginner to intermediate Python 
+              programming skill!
               <br />
-              Seminar 2 (afternoon): Career Talks → two guest speakers
-              (business/stem/psychology)
+              This book will be completely free to the children supported by 
+              Aidsistance!
               <br />
-              Things to be taught: Daily conversational English phrases; Basic
-              Algebra Math; Art/Creativity Class
+              This book will be available in Amazon to public in 2024! So stay tune!
             </p>
           </div>
         </div>
