@@ -39,11 +39,6 @@ const Header = () => (
                 <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">Our Team</a>
               </li>
             </Link>
-            <Link href="/futureplans">
-              <li>
-                <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">Future Plans</a>
-              </li>
-            </Link>
             <Link href="/ourprojects">
               <li>
                 <a href="md:float-right mt-2 align-middle ml-4 font-semibold cursor-pointer">Our Projects</a>
