@@ -61,25 +61,25 @@ function Hero() {
       <br />
       <div className="carousel carousel-center rounded-box">
         <div className="carousel-item">
-          <img src="https://i.ibb.co/mJxtjZN/Screenshot-2023-11-01-at-10-47-01.png" alt="Pizza" />
+          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
         </div>
         <div className="carousel-item">
-          <img src="https://i.ibb.co/16C0h5J/Screenshot-2023-11-01-at-10-49-32.png" alt="Pizza" />
+          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
         </div>
         <div className="carousel-item">
-          <img src="https://i.ibb.co/1930nGT/Screenshot-2023-11-01-at-10-50-56.png" alt="Pizza" />
+          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
         </div>
         <div className="carousel-item">
-          <img src="https://i.ibb.co/tYyXzbV/Screenshot-2023-11-01-at-10-51-57.png" alt="Pizza" />
+          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
         </div>
         <div className="carousel-item">
-          <img src="https://i.ibb.co/r7c1DgZ/Screenshot-2023-11-01-at-10-52-33.png" alt="Pizza" />
+          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
         </div>
         <div className="carousel-item">
-          <img src="https://i.ibb.co/yP3RFz7/Screenshot-2023-11-01-at-10-54-12.png" alt="Pizza" />
+          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
         </div>
         <div className="carousel-item">
-          <img src="https://i.ibb.co/vDQCXsk/Screenshot-2023-11-01-at-10-54-51.png" alt="Pizza" />
+          <img src="https://i.ibb.co/sQLnLJD/museum.jpg" alt="Pizza" />
         </div>
       </div>
       <br />
