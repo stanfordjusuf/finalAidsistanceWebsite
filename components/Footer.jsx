@@ -17,6 +17,17 @@ const Footer = () => (
       </p>
     </div>
     <div>
+      <img
+        src="https://i.ibb.co/vPfbWsB/Webfinity-Icon-800-400-px-2.png"
+        alt=""
+        style={{ width: '30%', height: 'auto' }}
+      />
+      <p className="font-bold">
+        Developed By <br />
+        Webfinity
+      </p>
+    </div>
+    <div>
       <div className="grid grid-flow-col gap-4">
         <center>
           <button type="button" className="btn btn-ghost btn-circle">
